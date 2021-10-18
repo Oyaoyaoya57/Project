@@ -1,0 +1,26 @@
+.pic {
+  width: 150px;
+  margin-right: auto;
+  display: block;
+  margin-left: auto;
+  height: 150px;
+}
+
+#two {
+  background-color: grey;
+  overflow: hidden;
+}
+button {
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.signup {
+  margin-left: 400px;
+}
+.login {
+  margin-left: 450px;
+}

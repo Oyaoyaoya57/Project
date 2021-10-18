@@ -1,0 +1,6 @@
+#one {
+  background-color: pink;
+  border: 4px solid black;
+  border-style: double;
+  overflow: hidden;
+}

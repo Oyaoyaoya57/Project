@@ -1,0 +1,42 @@
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <h2 style="text-align: center">User Authentication</h2>
+      <div class="vl">
+        <span class="vl-innertext"></span>
+      </div>
+
+      <div class="col">
+        <a href="#" class="fb btn">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+        </a>
+        <a href="#" class="twitter btn">
+          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+        </a>
+        <a href="#" class="google btn">
+          <i class="fa fa-google fa-fw"></i> Login with Google+
+        </a>
+        <br />
+        <br />
+      </div>
+
+      <div class="col">
+        <div class="hide-md-lg">
+          <p>Credentials:</p>
+        </div>
+
+        <input type="text" name="firstname" placeholder="Username" required />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+        <input type="submit" value="Submit" routerLink="/Dashboard" />
+      </div>
+      <br />
+      <br />
+      <a href="www.gaana.com" style="text-align: right">Forgot Password?</a>
+    </div>
+  </form>
+</div>
